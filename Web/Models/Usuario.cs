@@ -7,7 +7,7 @@ namespace AgileTickets.Web.Models
 {
     public class Usuario
     {
-        private String login { get; set; }
-        private String senha { get; set; }
+        public String login { get; set; }
+        public String senha { get; set; }
     }
 }
