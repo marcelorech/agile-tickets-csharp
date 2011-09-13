@@ -48,7 +48,7 @@ namespace AgileTickets.Web.Controllers
             for (int i = 0; i < 10; i++)
             {
                 Sessao sessao = new Sessao();
-                sessao.Espetaculo = i%2 == 0 ? e1 : e2;
+                sessao.Espetaculo = i % 2 == 0 ? e1 : e2;
                 sessao.TotalDeIngressos = 10;
                 sessao.IngressosReservados = 10 - i;
                 sessao.Inicio = DateTime.Now.AddDays(7 + i);
@@ -58,5 +58,6 @@ namespace AgileTickets.Web.Controllers
 
             return View();
         }
+
     }
 }

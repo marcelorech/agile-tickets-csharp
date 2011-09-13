@@ -14,6 +14,7 @@ namespace AgileTickets.Web.Infra.Database
             Id(e => e.Id);
             Map(e => e.Nome);
             Map(e => e.Endereco);
+            
         }
     }
 }
