@@ -8,6 +8,7 @@ namespace AgileTickets.Web.Repositorios
 {
     public interface Agenda
     {
+        // esta interface é implementada na camada DAO
         IList<Espetaculo> Espetaculos();
         Espetaculo Espetaculo(int id);
         void Atualiza(Sessao sessao);
